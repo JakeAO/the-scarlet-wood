@@ -1,0 +1,69 @@
+# Site settings
+name: The Scarlet Wood
+title: The Scarlet Wood
+description: "Campaign Hub for the Utopia TTRPG – The Scarlet Wood"
+url: "" # Set your production URL when known, e.g., https://<user>.github.io/the-scarlet-wood
+baseurl: "" # Leave empty if publishing at repository root on GitHub Pages
+
+# Use a GitHub Pages-compatible theme
+# Minima is supported natively by GitHub Pages
+theme: minima
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Collections: public player content is published, GM content is stored but not published
+collections:
+  player:
+    output: true
+    permalink: /players/:path/
+  gm:
+    output: false # Keep GM notes private/unpublished
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+      type: "player"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "gm"
+    values:
+      layout: page
+      published: false
+
+# Excludes from the site build (additional safety)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - scripts/
+  - vendor/
+  - .github/
+  - _gm/
+
+# Plugins supported by GitHub Pages (keep minimal for compatibility)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Minima options
+minima:
+  date_format: "%Y-%m-%d"
+  social_links: []
+
+# Permalinks
+permalink: pretty
+
+# Site navigation (optional; Minima can auto-build based on pages)
+# To customize nav, uncomment and adapt the header_pages list
+# header_pages:
+#   - players.md
