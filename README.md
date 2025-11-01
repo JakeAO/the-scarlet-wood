@@ -11,8 +11,8 @@ A GitHub Pages site for the Utopia TTRPG campaign "The Scarlet Wood".
 /                      # Jekyll site root
 ├─ _config.yml         # Jekyll config
 ├─ index.md            # Home page
-├─ players.md          # Lists all player-facing articles
-├─ _player/            # Collection: published player articles (Markdown)
+├─ world.md            # Lists all player-facing articles
+├─ _world/             # Collection: published player articles (Markdown)
 │  └─ 0001-welcome.md
 ├─ _gm/                # Collection: GM notes — not published
 │  └─ 0001-session-0-notes.md
@@ -26,7 +26,7 @@ A GitHub Pages site for the Utopia TTRPG campaign "The Scarlet Wood".
 
 ## Public vs private content
 
-- Player content lives in `_player/` (published). It becomes available under `/players/<slug>/`.
+- Player content lives in `_world/` (published). It becomes available under `/world/<slug>/`.
 - GM content lives in `_gm/` (private). The `_gm` collection is configured with `output: false` and excluded from the build, so it will not be deployed.
 
 Important: If this repository is public, GM files are visible to anyone browsing the repo on GitHub. To keep GM notes truly private:
@@ -59,7 +59,7 @@ This repo includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
 ## Writing content
 
 - Use the templates in `content-templates/` for new articles.
-- Player article location: `_player/my-article.md`
+- Player article location: `_world/my-article.md`
 - GM article location: `_gm/my-private-notes.md` (will not be published)
 
 ### Front matter examples

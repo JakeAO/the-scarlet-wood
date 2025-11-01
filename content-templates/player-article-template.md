@@ -25,5 +25,5 @@ Short overview (2–4 sentences).
 
 ## Links
 
-- Back to World index: {{ "/world/" | relative_url }}
-- Back to Info index: {{ "/info/" | relative_url }}
+- Back to World index: [World]({{ "/world/" | relative_url }})
+- Back to Info index: [Info]({{ "/info/" | relative_url }})

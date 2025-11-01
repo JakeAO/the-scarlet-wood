@@ -5,8 +5,6 @@ summary: Fearsome foes wielding axes and beer.
 topic: Enemies
 tags:
     - enemy
-
-published: false # REMOVE WHEN LIVE
 ---
 
 ## Overview

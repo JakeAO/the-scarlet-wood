@@ -25,4 +25,4 @@ Brief overview of the session (2–4 sentences).
 - Loot acquired
 
 ## Links
-- Back to Sessions index: {{ "/sessions/" | relative_url }}
+- Back to Sessions index: [Sessions]({{ "/sessions/" | relative_url }})

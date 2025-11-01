@@ -83,5 +83,7 @@ permalink: pretty
 
 # Site navigation (optional; Minima can auto-build based on pages)
 # To customize nav, uncomment and adapt the header_pages list
-# header_pages:
-#   - players.md
+header_pages:
+   - info.md
+   - world.md
+   - sessions.md

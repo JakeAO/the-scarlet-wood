@@ -5,8 +5,6 @@ summary: A powerful lumber corporation.
 topic: Enemies
 tags:
     - enemy
-
-published: false # REMOVE WHEN LIVE
 ---
 
 ## Overview
