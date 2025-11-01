@@ -1,14 +1,16 @@
 ---
 layout: page
-# REQUIRED
-title: <Player-facing title>
-# OPTIONAL
-summary: <Short 1-line summary>
-# SUGGESTED METADATA
-# tags: [lore, place, npc]
----
+title: Article XYZ
+summary: 1-line summary of article
+topic: topic
+tags:
+    - combat
+    - exploration
+    - lore
+    - roleplay
 
-# {{ page.title }}
+published: false # REMOVE WHEN LIVE
+---
 
 Write clear, spoiler-free content for players. Use headings to structure content.
 
@@ -23,4 +25,5 @@ Short overview (2–4 sentences).
 
 ## Links
 
-- Back to Players index: {{ "/players/" | relative_url }}
+- Back to World index: {{ "/world/" | relative_url }}
+- Back to Info index: {{ "/info/" | relative_url }}

@@ -1,11 +1,13 @@
 ---
 layout: home
 title: The Scarlet Wood
+permalink: /
 ---
 
-Welcome to The Scarlet Wood campaign hub for the Utopia TTRPG.
+Welcome to the campaign hub for The Scarlet Wood.
 
-- Browse player-facing lore and resources on the Players page.
-- Session summaries and rules clarifications will appear over time.
+- Browse rules clarifications, house rules, and other notes on the Rules & Info page.
+- Browse player-facing lore and resources on the World page.
+- Browse session summaries on the {{ "/world/" | relative_url }} page.
 
-> GM-only notes live in the repository but are not published to the website.
+> Happy adventuring!

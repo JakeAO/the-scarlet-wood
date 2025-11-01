@@ -2,7 +2,7 @@
 name: The Scarlet Wood
 title: The Scarlet Wood
 description: "Campaign Hub for the Utopia TTRPG – The Scarlet Wood"
-url: "" # Set your production URL when known, e.g., https://<user>.github.io/the-scarlet-wood
+url: "https://jakeao.github.io/the-scarlet-wood/" # Set your production URL when known, e.g., https://<user>.github.io/the-scarlet-wood
 baseurl: "" # Leave empty if publishing at repository root on GitHub Pages
 
 # Use a GitHub Pages-compatible theme
@@ -18,9 +18,15 @@ kramdown:
 
 # Collections: public player content is published, GM content is stored but not published
 collections:
-  player:
+  info:
     output: true
-    permalink: /players/:path/
+    permalink: /info/:path/
+  world:
+    output: true
+    permalink: /world/:path/
+  sessions:
+    output: true
+    permalink: /sessions/:path/
   gm:
     output: false # Keep GM notes private/unpublished
 
@@ -28,7 +34,19 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "player"
+      type: "info"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "world"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "sessions"
     values:
       layout: page
       toc: true

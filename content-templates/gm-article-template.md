@@ -12,8 +12,6 @@ published: false
 #     filled: 0
 ---
 
-# {{ page.title }}
-
 Private GM-facing content. This file should live under `_gm/` to be excluded from the build.
 
 ## Prep
