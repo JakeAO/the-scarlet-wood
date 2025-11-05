@@ -27,6 +27,9 @@ collections:
   sessions:
     output: true
     permalink: /sessions/:path/
+  assets:
+    output: true
+    permalink: /assets/:path/
   gm:
     output: false # Keep GM notes private/unpublished
 
