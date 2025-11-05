@@ -3,7 +3,7 @@ name: The Scarlet Wood
 title: The Scarlet Wood
 description: "Campaign Hub for the Utopia TTRPG – The Scarlet Wood"
 url: "https://jakeao.github.io/the-scarlet-wood/" # Set your production URL when known, e.g., https://<user>.github.io/the-scarlet-wood
-baseurl: "" # Leave empty if publishing at repository root on GitHub Pages
+baseurl: "the-scarlet-wood" # Leave empty if publishing at repository root on GitHub Pages
 
 # Use a GitHub Pages-compatible theme
 # Minima is supported natively by GitHub Pages
