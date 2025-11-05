@@ -7,7 +7,7 @@ permalink: /info/
 
 Below are all player-facing articles. Articles are grouped by topic and ordered by title.
 
-{% assign groups = site.info | group_by: "topic" | sort: 'title' %}
+{% assign groups = site.info | group_by: "topic" | sort: 'topic' %}
 {% for group in groups %}
 <h3>{{ group.name }}</h3>
 <ul>
