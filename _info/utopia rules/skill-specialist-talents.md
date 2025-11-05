@@ -15,7 +15,7 @@ Beginning at a base level of 10 and followed by each 10 levels afterwards, your 
 
 ## Content
 
-<object data="/assets/pdf/Skill.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Skill.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 

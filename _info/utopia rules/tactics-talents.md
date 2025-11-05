@@ -15,7 +15,7 @@ The Tactics core tree is evasive, offering talents that increase Block Rating an
 
 ## Content
 
-<object data="/assets/pdf/Tactics.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Tactics.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 

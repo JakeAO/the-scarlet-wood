@@ -15,7 +15,7 @@ The Prowess tree is the smallest, most generic, and the most expensive for its v
 
 ## Content
 
-<object data="/assets/pdf/Prowess.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Prowess.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 
