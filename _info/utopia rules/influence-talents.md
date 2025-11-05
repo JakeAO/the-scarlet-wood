@@ -15,7 +15,7 @@ The Influence tree is for diplomatic approaches and full party support. This tre
 
 ## Content
 
-<object data="/assets/pdf/Influence.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Influence.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 

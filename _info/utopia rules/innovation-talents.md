@@ -15,7 +15,7 @@ The Innovation tree often works in line with crafting, though offers several ben
 
 ## Content
 
-<object data="/assets/pdf/Innovation.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Innovation.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 

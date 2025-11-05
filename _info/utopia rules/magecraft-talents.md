@@ -15,7 +15,7 @@ The Magecraft tree is unique in design, as talents offering new arcane artistrie
 
 ## Content
 
-<object data="/assets/pdf/Magecraft.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Magecraft.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 

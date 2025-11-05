@@ -15,7 +15,7 @@ The Warfare core tree offers offensive talents, broken into three categories: me
 
 ## Content
 
-<object data="/assets/pdf/Warfare.pdf" width="800" height="950" type='application/pdf'></object>
+<object data="{{ "/assets/pdf/Warfare.pdf" | relative_url }}" width="800" height="950" type='application/pdf'></object>
 
 ## Links
 
