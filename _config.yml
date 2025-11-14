@@ -75,6 +75,7 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-glossary_tooltip
 
 # Minima options
 minima:

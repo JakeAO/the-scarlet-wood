@@ -5,5 +5,6 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "jekyll-glossary_tooltip", group: :jekyll_plugins
 
 gem "webrick", "~> 1.9"
