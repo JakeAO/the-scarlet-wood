@@ -41,9 +41,9 @@ Spend 2 AP to make an unarmed attack, dealing 1d8 + [Power Mod] Physical damage.
 Spend AP based on the highest AP cost of the weapons used to make the multi-weapon attack. The damage rolls for all involved weapons are halved (rounded down) before being summed together.
 
 ### Ranged Attack
-<b>AP Cost:</b> <i>Variable</i>
-<b>Short Range:</b> 4d6 + [Dex Mod]
-<b>Long Range:</b> 2d6 + [Dex Mod]
+<b>AP Cost:</b> <i>Variable</i> <br>
+<b>Short Range:</b> [Dexterity] w/ Favor <br>
+<b>Long Range:</b> [Dexterity] w/ Disfavor
 
 Spend AP based on the weapon used for the attack and make a to-hit roll based on the weapon's range band. On a successful hit, deal damage based on the weapon's damage ratinge. To-hit rolls are always versus the distance to target, with short range rolls having a point of favor and long range rolls having a point of disfavor.
 
@@ -65,7 +65,7 @@ Spend 3 AP and 3 Stamina to jump a distance up to your [Power] in meters. If imm
 
 ### Scale
 <b>AP Cost:</b> 🔴🔴🔴 <br>
-<b>Stamina Cost:</b> 4
+<b>Stamina Cost:</b> 4 <br>
 <b>Break AP Cost:</b> 🔴🔴 / 🟢
 
 Spend 3 AP and 4 Stamina to initiate a climb against an adjacent target of equal or greater size. Make an [Agility] vs [Strength] contest if they are the same size, or an [Agility] vs [Agility] contest if the target is larger. The scaling character receives a point of disfavor for each size larger the target is.
@@ -76,8 +76,8 @@ The scaled character may spend AP once per turn to compel another contested scal
 
 ### Grapple
 <b>AP Cost:</b> 🔴🔴🔴 <br>
-<b>Stamina Cost:</b> 2
-<b>Break AP Cost:</b> 🔴🔴 / 🟢
+<b>Stamina Cost:</b> 2 <br>
+<b>Break AP Cost:</b> 🔴🔴 / 🟢 <br>
 <b>Break Stamina Cost:</b> 2
 
 Spend 3 AP and 2 Stamina to initiate a grapple against an adjacent target. Make a contested [Strength] vs [Strength]/[Agility] check, with a point of disfavor for each size difference.
@@ -87,7 +87,7 @@ While grappled a character cannot use the Travel action, and all Attack, Block, 
 The grappled character may spend AP once per turn to compel another contested grapple roll to break free. Both characters who make the roll must expend 2 Stamina.
 
 ### Hold Action
-<b>AP Cost:</b> 🔴 / 🔴🔴
+<b>AP Cost:</b> 🔴 / 🔴🔴 <br>
 <b>Activation Cost:</b> 🟢
 
 Spend up to 2 AP to hold an action of corresponding cost. A held action may be released as a single Interrupt Action.
