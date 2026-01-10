@@ -2,7 +2,7 @@
 layout: page
 title: Denizens of the Wood
 summary: Creatures that inhabit The Scarlet Wood
-topic: Campaign
+topic: Campaigns
 tags:
     - setting
     - campaign

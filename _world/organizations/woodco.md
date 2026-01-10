@@ -2,7 +2,7 @@
 layout: page
 title: WoodCo
 summary: A powerful lumber corporation.
-topic: Enemies
+topic: Organizations
 tags:
     - enemy
 ---
@@ -20,4 +20,6 @@ The massive, multi-national conglomerate WoodCo has its tentacles in nearly ever
 
 ## Links
 
-- [Back to World index]({{ "/world/" | relative_url}})
+- Back to [World]({{ "/world/" | relative_url }})
+- Related organization: [Lumberjack Billy & Sons]({{ "/world/organizations/lumberjack-billy-and-sons/" | relative_url }})
+- Related sessions: [Session 2]({{ "/sessions/session-02-the-hunters-camp/" | relative_url }}), [Session 4]({{ "/sessions/session-04-the-logging-camp/" | relative_url }}), [Session 5]({{ "/sessions/session-05-proof-and-resolution/" | relative_url }})

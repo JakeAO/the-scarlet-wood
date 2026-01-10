@@ -3,6 +3,7 @@ layout: page
 title: Session XYZ
 summary: 1-line summary of session
 index: 0
+act: 0
 tags:
     - combat
     - exploration
@@ -16,13 +17,14 @@ Write a summary of the session here. Include key events, outcomes, and any impor
 
 ## Overview
 
-Brief overview of the session (2–4 sentences).
+Brief overview of the session (1-2 sentences).
+
+## Key Characters
+- NPCs involved in the session
 
 ## Details
 - Key events that occurred
-- Important NPCs encountered
-- Locations explored
-- Loot acquired
 
 ## Links
 - Back to Sessions index: [Sessions]({{ "/sessions/" | relative_url }})
+- Related session or article links

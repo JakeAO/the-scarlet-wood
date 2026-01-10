@@ -2,7 +2,7 @@
 layout: page
 title: A World of Lost Magic
 summary: The loss of magic throughout the world and its effects
-topic: Campaign
+topic: Campaigns
 tags:
     - setting
     - campaign
