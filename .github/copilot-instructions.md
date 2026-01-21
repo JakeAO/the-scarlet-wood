@@ -49,3 +49,10 @@ This repo is a Jekyll site (GitHub Pages) for a TTRPG campaign hub. Focus on con
 - New world article: copy `content-templates/player-article-template.md` → place under `_world/<category>/<slug>.md` → set `title`, `summary`, `topic`, `tags` → publish by removing `published: false`.
 - New session summary: copy `content-templates/session-article-template.md` → place under `_sessions/<slug>.md` → set `title`, `summary`, `index`.
 - Link back to indexes: use Jekyll’s relative_url filter (see `content-templates/*` for examples of World/Info/Sessions links).
+
+## Agent Design Notes
+- When assisting with content creation, follow the established conventions strictly.
+- Always validate front matter and markdown formatting before finalizing content.
+- Ensure all internal links use the `relative_url` filter to maintain compatibility with GitHub Pages
+- When adding player-facing content, always update corresponding DM-facing content in `_dm/` if necessary. Specifically, ensure that any lore or rules changes that become public are removed from the DM notes.
+- When generating new content, always consult the existing DM-notes in `_dm/` to get ideas.
