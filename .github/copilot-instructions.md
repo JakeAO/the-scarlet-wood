@@ -50,6 +50,16 @@ This repo is a Jekyll site (GitHub Pages) for a TTRPG campaign hub. Focus on con
 - New session summary: copy `content-templates/session-article-template.md` → place under `_sessions/<slug>.md` → set `title`, `summary`, `index`.
 - Link back to indexes: use Jekyll’s relative_url filter (see `content-templates/*` for examples of World/Info/Sessions links).
 
+## Campaign-specific Notes
+- Always consult `_dm/setting_notes.md` before making decisions about the campaign's world, setting, or lore.
+- Always consult `_dm/theme_notes.md` before making decisions about the campaign's themes, tone, or style.
+- Always consult `_dm/campaign_notes.md` before making decisions about overarching plot points, major campaign events, and planned story arcs.
+- Always scan all markdown files in the `_dm/` folder for relevant information when starting a new chat.
+
+## Custom Creation Agents
+- See `AGENTS_CREATURE_CRAFTING.md` for custom creature creation agent
+- See `AGENTS_ITEM_CRAFTING.md` for custom item creation agent
+
 ## Agent Design Notes
 - When assisting with content creation, follow the established conventions strictly.
 - Always validate front matter and markdown formatting before finalizing content.

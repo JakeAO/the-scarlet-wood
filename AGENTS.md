@@ -158,6 +158,10 @@ When editing index pages or templates:
 - Editing `_site/` → changes overwritten on next build
 - GM files in `_gm/` excluded from build but visible in repo (if public)
 
+## Custom Creation Agents
+- See `AGENTS_CREATURE_CRAFTING.md` for custom creature creation agent
+- See `AGENTS_ITEM_CRAFTING.md` for custom item creation agent
+
 ## Agent Design Notes
 - When assisting with content creation, follow the established conventions strictly.
 - Always validate front matter and markdown formatting before finalizing content.

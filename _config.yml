@@ -80,6 +80,8 @@ exclude:
   - .github/
   - _gm/
   - AGENTS.md
+  - AGENTS_ITEM_CRAFTING.md
+  - AGENTS_CREATURE_CRAFTING.md
 
 # Plugins supported by GitHub Pages (keep minimal for compatibility)
 plugins:

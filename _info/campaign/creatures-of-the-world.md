@@ -2,7 +2,7 @@
 layout: page
 title: Creatures of the World
 summary: Creatures that inhabit the world of The Scarlet Wood
-topic: Campaigns
+topic: Campaign
 tags:
     - setting
     - campaign
